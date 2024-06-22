@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL38Ih1X2Lt"
-#define BLYNK_TEMPLATE_NAME "Solar Management System"
-#define BLYNK_AUTH_TOKEN "KPSI1aWP-Ia4Xbv50ydD6uhLkVjXyR3H"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 ///* Comment this out to disable prints and save space */
 //#define BLYNK_PRINT Serial
@@ -36,8 +36,8 @@ float MAX_TEMPERATURE = 50.0;     // Maximum temperature in Celsius
 bool debugMode = false; // Debug mode flag
 
 char auth[] = "BLYNK_AUTH_TOKEN";  // Your Blynk authentication token
-char ssid[] = "Redmi 9 Power";   // Your WiFi SSID
-char pass[] = "tirth1340";       // Your WiFi password
+char ssid[] = ";   // Your WiFi SSID
+char pass[] = "";       // Your WiFi password
 
 BlynkTimer timer;
 
