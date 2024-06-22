@@ -20,24 +20,27 @@ Relays: For switching the solar panel and load connections.
 MOSFET: For controlling the charging current from the solar panel.
 Optional: Wi-Fi module for Arduino if using Blynk with Arduino.
 
-Software Requirements
+Software Requirements:
 
 Arduino IDE: For programming the Arduino or ESP32.
 Blynk Library: For integrating with the Blynk app.
 WiFi Library: For Wi-Fi connectivity (ESP32/Arduino with Wi-Fi module).
 
-Installation
+Installation:
 
 Clone the Repository:
 
 bash
 Copy code
 git clone https://github.com/yourusername/solar-management-system.git
-Install Arduino IDE: Download and install the Arduino IDE.
+
+Install Arduino IDE: 
+
+Download and install the Arduino IDE.
 
 Install Libraries:
 
-Blynk Library:
+Blynk Library
 Go to Sketch > Include Library > Manage Libraries.
 Search for Blynk and install the latest version.
 WiFi Library (if using ESP32/Arduino with Wi-Fi module):
@@ -58,7 +61,7 @@ Connect your Arduino/ESP32 to your computer.
 Select the correct board and port from Tools.
 Click the Upload button to upload the code to your microcontroller.
 
-Usage
+Usage:
 
 Monitor Parameters: Use the serial monitor to view real-time data for voltage, current, and temperature.
 Remote Monitoring: Open the Blynk app on your smartphone to monitor and control the system remotely.
@@ -68,12 +71,12 @@ Threshold Values: Adjust the threshold values for voltage, current, and temperat
 Adding New Sensors: Extend the code to include additional sensors as needed.
 Additional Features: Implement new features based on your specific requirements.
 
-Acknowledgements
+Acknowledgements:
 This project was made possible by the following resources and contributions:
 
-Blynk Library
+Blynk Library:
 WiFi Library for ESP32
 Arduino Core for ESP32
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
