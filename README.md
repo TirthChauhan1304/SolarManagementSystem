@@ -32,7 +32,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/solar-management-system.git
+git clone https://github.com/TirthChauhan1304/solarManagementSystem.git
 
 Install Arduino IDE: 
 
