@@ -36,7 +36,7 @@ float MAX_TEMPERATURE = 50.0;     // Maximum temperature in Celsius
 bool debugMode = false; // Debug mode flag
 
 char auth[] = "BLYNK_AUTH_TOKEN";  // Your Blynk authentication token
-char ssid[] = ";   // Your WiFi SSID
+char ssid[] = "";   // Your WiFi SSID
 char pass[] = "";       // Your WiFi password
 
 BlynkTimer timer;
