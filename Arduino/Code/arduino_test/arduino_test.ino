@@ -15,7 +15,7 @@ float MIN_BATTERY_VOLTAGE = 11.5; // Minimum battery voltage
 float MAX_BATTERY_VOLTAGE = 14.5; // Maximum battery voltage
 float MAX_SOLAR_CURRENT = 5.0;    // Maximum current from solar panel
 float MAX_LOAD_CURRENT = 10.0;    // Maximum current for load
-float MAX_TEMPERATURE = 50.0;     // Maximum temperature in Celsius
+float MAX_TEMPERATURE = 45.0;     // Maximum temperature in Celsius
 
 bool debugMode = false; // Debug mode flag
 
